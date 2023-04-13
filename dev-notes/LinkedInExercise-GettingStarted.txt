@@ -1,0 +1,550 @@
+LinkedInExercise-GettingStarted
+guest1@MIKAEL-ALEX-R MINGW64 /c/Users/marbs/Desktop/mnr-main-copy
+$ npx reactfull create new-mnr-app
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.npmjs.org/reactfull - Not found
+npm ERR! 404 
+npm ERR! 404  'reactfull@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\guest1\AppData\Local\npm-cache\_logs\2023-04-10T20_03_13_274Z-debug-0.log
+
+guest1@MIKAEL-ALEX-R MINGW64 /c/Users/marbs/Desktop/mnr-main-copy
+$ npm i --save reactful
+
+added 18 packages in 1s
+
+1 package is looking for funding
+  run `npm fund` for details
+
+guest1@MIKAEL-ALEX-R MINGW64 /c/Users/marbs/Desktop/mnr-main-copy
+$ npx reactful create new-mnr-app
+Reactful version 3.2.4
+⚡ CREATING: new-mnr-app
+Initialized empty Git repository in C:/Users/marbs/Desktop/mnr-main-copy/new-mnr-app/.git/
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+
+added 560 packages, and audited 561 packages in 16s
+
+41 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm WARN deprecated babel-eslint@10.1.0: babel-eslint is now @babel/eslint-parser. This package will no longer receive updates.
+
+added 551 packages, and audited 1112 packages in 39s
+
+132 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+warning: in the working copy of '.eslintrc.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.travis.yml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'babel-node.config.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'babel.config.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'prettier.config.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/App.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/App.test.js', LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of 'src/components/__snapshots__/App.test.js.snap', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/renderers/dom.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/renderers/server.js', LF will be replaced by CRLF the next time Git touches it       
+warning: in the working copy of 'src/server/config.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/server/config.test.js', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'src/server/server.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/styles/index.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'views/index.ejs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'webpack.config.js', LF will be replaced by CRLF the next time Git touches it
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.   
+
+npm ERR!          npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites   
+npm ERR!
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\guest1\AppData\Local\npm-cache\_logs\2023-04-10T20_04_55_003Z-debug-0.log
+
+guest1@MIKAEL-ALEX-R MINGW64 /c/Users/marbs/Desktop/mnr-main-copy
+$ git config --global user.email "michaelarobins93@gmail.com"
+
+guest1@MIKAEL-ALEX-R MINGW64 /c/Users/marbs/Desktop/mnr-main-copy
+$ git config --global user.name "Michael Robins"
+
+guest1@MIKAEL-ALEX-R MINGW64 /c/Users/marbs/Desktop/mnr-main-copy
+$ npm start
+npm ERR! Missing script: "start"
+npm ERR!
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites   
+npm ERR!
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\guest1\AppData\Local\npm-cache\_logs\2023-04-10T20_06_04_618Z-debug-0.log
+
+guest1@MIKAEL-ALEX-R MINGW64 /c/Users/marbs/Desktop/mnr-main-copy
+$ npm run
+
+guest1@MIKAEL-ALEX-R MINGW64 /c/Users/marbs/Desktop/mnr-main-copy
+$ npm i 
+
+up to date, audited 19 packages in 1s        
+esktop/mnr-main-copy
+esktop/mnr-main-copy      
+$ npx tsc -v
+Version 4.9.5
+                          guest1@MIKAEL-ALEX-R MINGW64 /c/Users/marbs/Desktop/mnr-scripts, run:
+scripts, run:
+npm ERR!   npm run
+                      npm ERR! A complete log of scripts, run:                                     npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in:npm ERR!     C:\Users\guest1\AppData\Local\npm-cache\_logs\2023-04-10T20_13_04_390Z-debug-0.log   
+
+guest1@MIKAEL-ALEX-R MINGW64 /c/Users/marbs/Desktop/mnr-main-copy
+$ npm test
+npm ERR! Missing script: "test"
+npm ERR!
+npm ERR! To see a list of scripts, run:           npm ERR!   npm run
+                                                  npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\guest1\AppData\Local\npm-cache\_logs\2023-04-10T20_13_44_716Z-debug-0.log     
+
+guest1@MIKAEL-ALEX-R MINGW64 /c/Users/marbs/Desktop/mnr-main-copy
+$ npx tsc
+Version 4.9.5
+tsc: The TypeScript Compiler - Version 4.9.5      
+                                               TS 
+COMMON COMMANDS
+
+  tsc
+  Compiles the current project (tsconfig.json in the working directory.)
+
+  tsc app.ts util.ts
+  Ignoring tsconfig.json, compiles the specified files with default compiler options.
+
+  tsc -b
+  Build a composite project in the working directory.
+
+  tsc --init
+  Creates a tsconfig.json with the recommended settings in the working directory.
+
+  tsc -p ./path/to/tsconfig.json
+  Compiles the TypeScript project located at the specified path.
+
+  tsc --help --all
+  An expanded version of this information, showing all possible compiler options
+
+  tsc --noEmit
+  tsc --target esnext
+  Compiles the current project, with additional settings.
+
+COMMAND LINE FLAGS
+
+--help, -h
+Print this message.
+
+--watch, -w
+Watch input files.
+
+--all
+Show all compiler options.
+
+--version, -v
+Print the compiler's version.
+
+--init
+Initializes a TypeScript project and creates a tsconfig.json file.
+
+--project, -p
+Compile the project given the path to its configuration file, or to a folder with a 'tsconfig.json'.
+
+--build, -b
+Build one or more projects and their dependencies, if out of date
+
+--showConfig
+Print the final configuration instead of building.
+
+COMMON COMPILER OPTIONS
+
+--pretty
+Enable color and formatting in TypeScript's output to make compiler errors easier to read.
+type: boolean
+default: true
+
+--target, -t
+Set the JavaScript language version for emitted JavaScript and include compatible library declarations.
+one of: es3, es5, es6/es2015, es2016, es2017, es2018, es2019, es2020, es2021, es2022, esnext        
+default: es3
+
+--module, -m
+Specify what module code is generated.
+one of: none, commonjs, amd, umd, system, es6/es2015, es2020, es2022, esnext, node16, nodenext      
+default: undefined
+
+--lib
+Specify a set of bundled library declaration files that describe the target runtime environment.    
+one or more: es5, es6/es2015, es7/es2016, es2017, es2018, es2019, es2020, es2021, es2022, esnext, dom, dom.iterable, webworker, webworker.importscripts, webworker.iterable, scripthost, es2015.core, es2015.collection, es2015.generator, es2015.iterable, es2015.promise, es2015.proxy, es2015.reflect, es2015.symbol, es2015.symbol.wellknown, es2016.array.include, es2017.object, es2017.sharedmemory, es2017.string, es2017.intl, es2017.typedarrays, es2018.asyncgenerator, es2018.asynciterable/esnext.asynciterable, es2018.intl, es2018.promise, es2018.regexp, es2019.array, es2019.object, es2019.string, es2019.symbol/esnext.symbol, es2019.intl, es2020.bigint/esnext.bigint, es2020.date, es2020.promise, es2020.sharedmemory, es2020.string, es2020.symbol.wellknown, es2020.intl, es2020.number, es2021.promise/esnext.promise, es2021.string, es2021.weakref/esnext.weakref, es2021.intl, es2022.array/esnext.array, es2022.error, es2022.intl, es2022.object, es2022.sharedmemory, es2022.string/esnext.string, esnext.intl
+default: undefined
+
+--allowJs
+Allow JavaScript files to be a part of your program. Use the 'checkJS' option to get errors from these files.
+type: boolean
+default: false
+
+--checkJs
+Enable error reporting in type-checked JavaScript files.
+type: boolean
+default: false
+
+--jsx
+Specify what JSX code is generated.
+one of: preserve, react, react-native, react-jsx, react-jsxdev
+default: undefined
+
+--declaration, -d
+Generate .d.ts files from TypeScript and JavaScript files in your project.
+type: boolean
+default: `false`, unless `composite` is set       
+
+--declarationMap
+Create sourcemaps for d.ts files.
+type: boolean
+default: false
+
+--emitDeclarationOnly
+Only output d.ts files and not JavaScript files.  
+type: boolean
+default: false
+
+--sourceMap
+Create source map files for emitted JavaScript files.
+type: boolean
+default: false
+
+--outFile
+Specify a file that bundles all outputs into one JavaScript file. If 'declaration' is true, also designates a file that bundles all .d.ts output.     
+
+--outDir
+Specify an output folder for all emitted files.   
+
+--removeComments
+Disable emitting comments.
+type: boolean
+default: false
+
+--noEmit
+Disable emitting files from a compilation.        
+type: boolean
+default: false
+
+--strict
+Enable all strict type-checking options.
+type: boolean
+default: false
+
+--types
+Specify type package names to be included without being referenced in a source file.
+
+--esModuleInterop
+Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility.        
+type: boolean
+default: false
+
+You can learn about all of the compiler options at https://aka.ms/tsc
+
+
+guest1@MIKAEL-ALEX-R MINGW64 /c/Users/marbs/Desktop/mnr-main-copy
+$ npx tsc --save
+error TS5023: Unknown compiler option '--save'.
+
+guest1@MIKAEL-ALEX-R MINGW64 /c/Users/marbs/Desktop/mnr-main-copy
+$ npm i --save tsc
+
+added 1 package, and audited 20 packages in 2s    
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+guest1@MIKAEL-ALEX-R MINGW64 /c/Users/marbs/Desktop/mnr-main-copy
+$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file. 
+
+Press ^C at any time to quit.
+package name: (mnr-main-copy)
+version: (1.0.0)                                  
+description:                                      
+entry point: (index.js)                           
+test command:                                     
+git repository:                                   
+keywords:                                         
+author: Mike
+license: (ISC)                                    
+About to write to C:\Users\marbs\Desktop\mnr-main-copy\package.json:
+
+{
+  "dependencies": {
+    "reactful": "^3.2.4",
+    "tsc": "^2.0.4"
+  },
+  "name": "mnr-main-copy",
+  "version": "1.0.0",
+  "main": "index.js",
+
+"Error: no test specified"
+                                                  guest1@MIKAEL-ALEX-R MINGW64 /c/Users/marbs/Desktop/mnr-main-copy
+$ npm test
+
+> mnr-main-copy@1.0.0 test
+> tsc -v
+
+
+                                                  
+
+                This is not the tsc command you are looking for                                     
+
+
+To get access to the TypeScript compiler, tsc, from the command line either:
+
+- Use npm install typescript to first add TypeScript to your project before using npx                  - Use yarn to avoid accidentally running code from un-installed packages
+
+guest1@MIKAEL-ALEX-R MINGW64 /c/Users/marbs/Desktop/mnr-main-copy                  $ npm install --save typescript
+
+added 1 package, and audited 21 packages in 3s
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+guest1@MIKAEL-ALEX-R MINGW64 /c/Users/marbs/Desktop/mnr-main-copy
+$ npm test
+
+> mnr-main-copy@1.0.0 test
+> tsc -v
+
+Version 5.0.4
+
+guest1@MIKAEL-ALEX-R MINGW64 /c/Users/marbs/Desktop/mnr-main-copy
+$ npm i eslint prettier
+
+added 87 packages, and audited 108 packages in 3s
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+guest1@MIKAEL-ALEX-R MINGW64 /c/Users/marbs/Desktop/mnr-main-copy
+$ npm i -D eslint prettier
+npm WARN idealTree Removing dependencies.eslint in favor of devDependencies.eslint
+npm WARN idealTree Removing dependencies.prettier in favor of devDependencies.prettier
+
+up to date, audited 108 packages in 426ms
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+guest1@MIKAEL-ALEX-R MINGW64 /c/Users/marbs/Desktopadded 169 packages, and audited 170 packages in 4s 
+
+31 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+guest1@MIKAEL-ALEX-R MINGW64 /c/Users/marbs/Desktop/mnr-main-copy
+$ cd 'c:/Users/marbs/Desktop/mnr-main-copy/mnr-main'
+
+guest1@MIKAEL-ALEX-R MINGW64 /c/Users/marbs/Desktop/mnr-main-copy/mnr-main
+$ npx tsc src/server/server.ts
+
+guest1@MIKAEL-ALEX-R MINGW64 /c/Users/marbs/Desktop/mnr-main-copy/mnr-main
+$ node src/server/server.js
+undefined
+
+guest1@MIKAEL-ALEX-R MINGW64 /c/Users/marbs/Desktop/mnr-main-copy/mnr-main
+$ node src/server/server.js
+undefined
+
+guest1@MIKAEL-ALEX-R MINGW64 /c/Users/marbs/Desktop/mnr-main-copy/mnr-main
+$ npx tsc src/server/server.ts
+
+guest1@MIKAEL-ALEX-R MINGW64 /c/Users/marbs/Desktop/mnr-main-copy/mnr-main
+$ node src/server/server.js
+[Function: createApplication] {
+  application: {
+    init: [Function: init],
+    defaultConfiguration: [Function: defaultConfigu
+ration],
+    lazyrouter: [Function: lazyrouter],
+    handle: [Function: handle],
+    use: [Function: use],
+    route: [Function: route],
+    engine: [Function: engine],
+    param: [Function: param],
+    set: [Function: set],
+    path: [Function: path],
+    enabled: [Function: enabled],
+    disabled: [Function: disabled],
+    enable: [Function: enable],
+    disable: [Function: disable],
+    acl: [Function (anonymous)],
+    bind: [Function (anonymous)],
+    checkout: [Function (anonymous)],
+    connect: [Function (anonymous)],
+    copy: [Function (anonymous)],
+    delete: [Function (anonymous)],
+    get: [Function (anonymous)],
+    head: [Function (anonymous)],
+    link: [Function (anonymous)],
+    lock: [Function (anonymous)],
+    'm-search': [Function (anonymous)],
+    merge: [Function (anonymous)],
+    mkactivity: [Function (anonymous)],
+    mkcalendar: [Function (anonymous)],
+    mkcol: [Function (anonymous)],
+    move: [Function (anonymous)],
+    notify: [Function (anonymous)],
+    options: [Function (anonymous)],
+    patch: [Function (anonymous)],
+    post: [Function (anonymous)],
+    propfind: [Function (anonymous)],
+    proppatch: [Function (anonymous)],
+    purge: [Function (anonymous)],
+    put: [Function (anonymous)],
+    rebind: [Function (anonymous)],
+    report: [Function (anonymous)],
+    search: [Function (anonymous)],
+    source: [Function (anonymous)],
+    subscribe: [Function (anonymous)],
+    trace: [Function (anonymous)],
+    unbind: [Function (anonymous)],
+    unlink: [Function (anonymous)],
+    unlock: [Function (anonymous)],
+    unsubscribe: [Function (anonymous)],
+    all: [Function: all],
+    del: [Function (anonymous)],
+    render: [Function: render],
+    listen: [Function: listen]
+  },
+  request: IncomingMessage {
+    header: [Function: header],
+    get: [Function: header],
+    accepts: [Function (anonymous)],
+    acceptsEncodings: [Function (anonymous)],      
+    acceptsEncoding: [Function (anonymous)],       
+    acceptsCharsets: [Function (anonymous)],       
+    acceptsCharset: [Function (anonymous)],        
+    acceptsLanguages: [Function (anonymous)],      
+    acceptsLanguage: [Function (anonymous)],       
+    range: [Function: range],
+    param: [Function: param],
+    is: [Function: is],
+    protocol: [Getter],
+    secure: [Getter],
+    ip: [Getter],
+    ips: [Getter],
+    subdomains: [Getter],
+    path: [Getter],
+    hostname: [Getter],
+    host: [Getter],
+    fresh: [Getter],
+    stale: [Getter],
+    xhr: [Getter]
+  },
+  response: ServerResponse {
+    status: [Function: status],
+    links: [Function (anonymous)],
+    send: [Function: send],
+    json: [Function: json],
+    jsonp: [Function: jsonp],
+    sendStatus: [Function: sendStatus],
+    sendFile: [Function: sendFile],
+    sendfile: [Function (anonymous)],
+    download: [Function: download],
+    type: [Function: contentType],
+    contentType: [Function: contentType],
+    format: [Function (anonymous)],
+    attachment: [Function: attachment],
+    append: [Function: append],
+    header: [Function: header],
+    set: [Function: header],
+    get: [Function (anonymous)],
+    clearCookie: [Function: clearCookie],
+    cookie: [Function (anonymous)],
+    location: [Function: location],
+    redirect: [Function: redirect],
+    vary: [Function (anonymous)],
+    render: [Function: render]
+  },
+  Route: [Function: Route],
+  Router: [Function (anonymous)] {
+    param: [Function: param],
+    handle: [Function: handle],
+    process_params: [Function: process_params],    
+    use: [Function: use],
+    route: [Function: route],
+    acl: [Function (anonymous)],
+    bind: [Function (anonymous)],
+    checkout: [Function (anonymous)],
+    connect: [Function (anonymous)],
+    copy: [Function (anonymous)],
+    delete: [Function (anonymous)],
+    get: [Function (anonymous)],
+    head: [Function (anonymous)],
+    link: [Function (anonymous)],
+    lock: [Function (anonymous)],
+    'm-search': [Function (anonymous)],
+    merge: [Function (anonymous)],
+    mkactivity: [Function (anonymous)],
+    mkcalendar: [Function (anonymous)],
+    mkcol: [Function (anonymous)],
+    move: [Function (anonymous)],
+    notify: [Function (anonymous)],
+    options: [Function (anonymous)],
+    patch: [Function (anonymous)],
+    post: [Function (anonymous)],
+    propfind: [Function (anonymous)],
+    proppatch: [Function (anonymous)],
+    purge: [Function (anonymous)],
+    put: [Function (anonymous)],
+    rebind: [Function (anonymous)],
+      types: [Object: null prototype],
+      extensions: [Object: null prototype],        
+      default_type: 'application/octet-stream',    
+      Mime: [Function: Mime],
+      charsets: [Object]
+    }
+  },
+  text: [Function: text],
+  urlencoded: [Function: urlencoded]
+}
