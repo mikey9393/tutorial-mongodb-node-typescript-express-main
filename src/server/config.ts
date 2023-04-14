@@ -9,6 +9,7 @@ const env = process.env; // env_ironment variable.
 export const PORT = env.PORT ?? "8080"; // named export
 export const HOST = env.HOST ?? "localhost";
 export const SERVER_URL = `http://${HOST}:${PORT}`;
+// export const API_SERVER_URL = `http://${HOST}:${PORT}/api`;
 
 //get mongoDB server URI from the client program MongoDB Compass, to connect to the database in mongoDB app. 
 export const MONGODB_URI  = env.MONGODB_URI ?? "mongodb://localhost:27017";
@@ -19,5 +20,5 @@ export default {
   PORT,
   HOST,
   SERVER_URL
-}
+};
 

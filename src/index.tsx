@@ -1,35 +1,22 @@
 import { createRoot } from 'react-dom/client'; // will use react-dom/server *for the server-side.
-import React from 'react';
+
+//Need to split config files: one for server, and one for client.
+import axios from 'axios';
 
 
-
-// const Header = (props) => { // passing props w/out destructuring.
-  //   return (
-    //     <div>
-    //       <h1>{props.title}</h1>
-    //     </div>
-    //   ); // In App => <Header message="Naming Contests" />
-
-  const Header = ({message}) => { // passing props w/destructuring.
-  return (
-    <div className="header">
-      { message }
-    </div>
-  );
-}
-const App = () => {
-
-  return (
-    <div className="container">
-      {/* In HTML attribute - In React it's props.  */}
-      <Header message="Naming Contests" />
-    </div>
-
-  )
-  //return React.createElement('Div', null, "Hello React");
-  
-}
+import { API_SERVER_URL } from './public-config';
+import App from './components/App';
 
 const container = document.querySelector('#app');
 const root = createRoot(container);
-root.render(<App/>);
+// root.render(<App/>);
+
+axios.get(`${API_SERVER_URL}/contests`)
+  .then(response => {
+        console.log(response.data);
+      root.render(<App initialData={{contests: response.data.contests}} />)
+    });
+
+// delay rendering of the app until I have the data
+    // Move root.render() to the promise handler. Because were done with the network call and we have the data. 
+    // Next make app component aware of the data.  
